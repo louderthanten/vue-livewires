@@ -1,0 +1,9 @@
+:root {
+  --white: white;
+  --black: black;
+  --grey: grey;
+  --blue: blue;
+  --red: red;
+  --accent: var(--red);
+  --accent2: var(--blue);
+}

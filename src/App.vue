@@ -1,28 +1,26 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
+    <app-header :title="title"></app-header>
+    <router-view/>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
+import Header from './components/common/Header'
 
 export default {
-  name: 'app',
+  name: 'App',
+  data () {
+    return {
+      title: 'Live Wires'
+    }
+  },
   components: {
-    Hello
+    appHeader: Header
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  @import './assets/css/livewires.css';
 </style>
