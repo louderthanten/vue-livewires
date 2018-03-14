@@ -2,10 +2,12 @@
 @import '1_settings/color.css';
 @import '1_settings/typography.css';
 
-@import '2_generic/normalize.css';
+@import '2_tools/typesizing.css';
 
-@import '3_elements/page.css';
-@import '3_elements/typography.css';
-@import '3_elements/links.css';
+@import '3_generic/normalize.css';
 
-@import '4_utilities/typography.css';
+@import '4_elements/page.css';
+@import '4_elements/typography.css';
+@import '4_elements/links.css';
+
+@import '5_utilities/typography.css';

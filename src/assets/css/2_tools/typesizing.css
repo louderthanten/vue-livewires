@@ -1,0 +1,23 @@
+:root {
+  --font-size-1: calc((var(--size-1) / var(--base)) * 1rem);
+  --font-size-2: calc((var(--size-2) / var(--base)) * 1rem);
+  --font-size-3: calc((var(--size-3) / var(--base)) * 1rem);
+  --font-size-4: calc((var(--size-4) / var(--base)) * 1rem);
+  --font-size-5: calc((var(--size-5) / var(--base)) * 1rem);
+  --font-size-6: calc((var(--size-6) / var(--base)) * 1rem);
+  --font-size-7: calc((var(--size-7) / var(--base)) * 1rem);
+  --font-size-8: calc((var(--size-8) / var(--base)) * 1rem);
+  --font-size-9: calc((var(--size-9) / var(--base)) * 1rem);
+  --font-size-10: calc((var(--size-10) / var(--base)) * 1rem);
+
+  --line-height-1: calc(var(--line-1) / var(--size-1));
+  --line-height-2: calc(var(--line-2) / var(--size-2));
+  --line-height-2: calc(var(--line-3) / var(--size-3));
+  --line-height-2: calc(var(--line-4) / var(--size-4));
+  --line-height-2: calc(var(--line-5) / var(--size-5));
+  --line-height-2: calc(var(--line-6) / var(--size-6));
+  --line-height-2: calc(var(--line-7) / var(--size-7));
+  --line-height-2: calc(var(--line-8) / var(--size-8));
+  --line-height-2: calc(var(--line-9) / var(--size-9));
+  --line-height-2: calc(var(--line-10) / var(--size-10));  
+}
