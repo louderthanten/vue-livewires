@@ -1,0 +1,21 @@
+.no-border { border: none; }
+.border-width-1 { border-width: 1px; }
+.border-width-2 { border-width: 2px; }
+.border-width-3 { border-width: calc(var(--line) / 4); }
+.border-width-4 { border-width: calc(var(--line) / 3); }
+.border-width-5 { border-width: calc(var(--line) / 2); }
+.border-width-6 { border-width: var(--line); }
+
+.black-border { border-color: var(--black); }
+.white-border { border-color: var(--white); }
+.grey-border { border-color: var(--grey); }
+.green-border { border-color: var(--green); }
+.blue-border { border-color: var(--blue); }
+.red-border { border-color: var(--red); }
+.accent-border { border-color: var(--accent); }
+.accent2-border { border-color: var(--accent2); }
+
+.solid-border { border-style: solid; }
+.dashed-border { border-style: dashed; }
+.dotted-border { border-style: dotted; }
+.double-border { border-style: double; }

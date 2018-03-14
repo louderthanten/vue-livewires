@@ -1,0 +1,7 @@
+:root {
+  --grid-number: auto;
+  --grid-gutter: var(--line);
+  --grid-col: 1;
+  --grid-row: 1;
+  --grid-order: 0;
+}

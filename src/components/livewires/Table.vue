@@ -124,7 +124,7 @@ tfoot {
       border: none;
     }
   }
-  @media only screen and (max-width: var(--sm, 48em) {
+  @media only screen and (max-width: 48em) {
     td {
       border-top: none;
     }
@@ -173,7 +173,7 @@ tfoot {
   }
 }
 
-@media only screen and (max-width: var(--sm, 48em)) {
+@media only screen and (max-width: 48em) {
   table {
     tr {
       width: 100%;

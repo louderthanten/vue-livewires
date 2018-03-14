@@ -2,4 +2,27 @@ html {
   background-color: var(--white);
   color: var(--black);
   font-family: var(--sans);
+  font-size: 80%;
+}
+.page {
+  margin-left: calc(var(--line) / 2);
+  margin-right: calc(var(--line) / 2);
+}
+@media (min-width: 36em) {
+  html {
+    font-size: 100%;
+  }
+  .page {
+    margin-left: calc(var(--line) * 1);
+    margin-right: calc(var(--line) * 1);
+  }
+}
+@media (min-width: 48em) {
+  html {
+    font-size: 100%;
+  }
+  .page {
+    margin-left: calc(var(--line) * 2);
+    margin-right: calc(var(--line) * 2);
+  }
 }

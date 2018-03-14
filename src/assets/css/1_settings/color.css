@@ -4,6 +4,7 @@
   --grey: grey;
   --blue: blue;
   --red: red;
+  --green: green;
   --accent: var(--red);
   --accent2: var(--blue);
 }

@@ -12,12 +12,12 @@
 
   --line-height-1: calc(var(--line-1) / var(--size-1));
   --line-height-2: calc(var(--line-2) / var(--size-2));
-  --line-height-2: calc(var(--line-3) / var(--size-3));
-  --line-height-2: calc(var(--line-4) / var(--size-4));
-  --line-height-2: calc(var(--line-5) / var(--size-5));
-  --line-height-2: calc(var(--line-6) / var(--size-6));
-  --line-height-2: calc(var(--line-7) / var(--size-7));
-  --line-height-2: calc(var(--line-8) / var(--size-8));
-  --line-height-2: calc(var(--line-9) / var(--size-9));
-  --line-height-2: calc(var(--line-10) / var(--size-10));  
+  --line-height-3: calc(var(--line-3) / var(--size-3));
+  --line-height-4: calc(var(--line-4) / var(--size-4));
+  --line-height-5: calc(var(--line-5) / var(--size-5));
+  --line-height-6: calc(var(--line-6) / var(--size-6));
+  --line-height-7: calc(var(--line-7) / var(--size-7));
+  --line-height-8: calc(var(--line-8) / var(--size-8));
+  --line-height-9: calc(var(--line-9) / var(--size-9));
+  --line-height-10: calc(var(--line-10) / var(--size-10));  
 }
