@@ -1,0 +1,56 @@
+h1 {
+  font-size: var(--font-size-9);
+  margin-top:1em;
+  margin-bottom:0;
+}
+h2 {
+  font-size: var(--font-size-8);
+  margin-top:1em;
+  margin-bottom:0;
+}
+h3 {
+  font-size: var(--font-size-7);
+  margin-top:1em;
+  margin-bottom:0;
+}
+h4 {
+  font-size: var(--font-size-6);
+  margin-top:1em;
+  margin-bottom:0;
+}
+h5 {
+  font-size: var(--font-size-5);
+  margin-top:1em;
+  margin-bottom:0;
+}
+h6 {
+  font-size: var(--font-size-4);
+  margin-top:1em;
+  margin-bottom:0;
+}
+
+p,
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: calc(var(--line) / 2);
+}
+
+ul,
+ol {
+  padding-left: 0;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+  padding-left: 1em;
+}
+
+dt {
+  font-weight: var(--bold);
+}
+dd {
+  margin-left: 0;
+  margin-bottom: var(--line);
+}

@@ -5,29 +5,17 @@
       <h2>Typefaces</h2>
       <hr>
 
-      <h3>Neue Haas Grotesk Display Pro</h3>
-      <app-type-sample :font="'display'" :title="'Regular 400'" :italic="false" :weight="'regular'"></app-type-sample>
-      <app-type-sample :font="'display'" :title="'Bold 700'" :italic="false" :weight="'bold'"></app-type-sample>
+      <h3>System sans</h3>
+      <app-type-sample :font="'sans'" :title="'Regular 400'" :weight="'regular'"></app-type-sample>
+      <app-type-sample :font="'sans'" :title="'Bold 700'" :weight="'bold'"></app-type-sample>
 
-      <h3>Acumin Semi Condensed</h3>
-      <app-type-sample :font="'semi-condensed'" :title="'Medium 500'" :weight="'medium'"></app-type-sample>
-      <app-type-sample :font="'semi-condensed'" :italic="false" :title="'Bold 700'" :weight="'bold'"></app-type-sample>
+      <h3>System serif</h3>
+      <app-type-sample :font="'serif'" :title="'Regular 400'" :weight="'regular'"></app-type-sample>
+      <app-type-sample :font="'serif'" :title="'Bold 700'" :weight="'bold'"></app-type-sample>
 
-      <h3>Acumin Condensed</h3>
-      <app-type-sample :font="'condensed'" :italic="false" :title="'Regular 400'" :weight="'regular'"></app-type-sample>
-      <app-type-sample :font="'condensed'" :italic="false" :title="'Medium 500'" :weight="'medium'"></app-type-sample>
-
-      <h3>Acumin Extra Condensed</h3>
-      <app-type-sample :font="'extra-condensed'" :italic="false" :title="'Medium 500'" :weight="'medium'"></app-type-sample>
-
-      <h3>Acumin Wide</h3>
-      <app-type-sample :font="'wide'" :italic="false" :title="'Medium 500'" :weight="'medium'"></app-type-sample>
-      <app-type-sample :font="'wide'" :italic="false" :title="'Semibold 600'" :weight="'semibold'"></app-type-sample>
-      <app-type-sample :font="'wide'" :italic="false" :title="'Bold 700'" :weight="'bold'"></app-type-sample>
-
-      <h3>Cartograph Mono</h3>
+      <h3>System Mono</h3>
       <app-type-sample :font="'mono'" :italic="false" :title="'Regular 400'" :weight="'regular'"></app-type-sample>
-      <app-type-sample :font="'mono'" :italic="false" :title="'Medium 500'" :weight="'medium'"></app-type-sample>
+      <app-type-sample :font="'mono'" :italic="false" :title="'Bold 700'" :weight="'bold'"></app-type-sample>
     </section>
     <section class="grid">
       <h2>Font sizes</h2>
@@ -192,25 +180,6 @@
     <p class="more"><a href="#header" class="js-scroll">To top</a></p>
   </section>
 
-  <section class="row" id="borders">
-    <h2>Borders &amp; rules</h2>
-    <hr>
-
-    <div class="split-content">
-      <h3>Dark rule</h3>
-      <hr />
-      <h3>Light rule</h3>
-      <hr class="rule--light" />
-    </div>
-
-    <div class="split-content">
-      <h3>Red rule</h3>
-      <hr class="rule--red" />
-      <h3>White rule</h3>
-      <div class="reverse"><hr class="rule--white" /></div>
-    </div>
-  </section>
-
   <section class="row" id="misc">
     <h2>Misc</h2>
     <hr>
@@ -226,7 +195,7 @@
       <hr>
 
       <h3>More links</h3>
-      <p class="more"><a href="">Read more &gt;</a></p>
+      <p class="more"><a href="">Read more</a></p>
     </div>
 
   </section>

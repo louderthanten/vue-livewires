@@ -6,15 +6,6 @@
   text-align: left;
   text-indent: -999em;
   overflow: hidden;
-
-  br {
-    display: none;
-  }
-}
-.hide  { display: none !important; }
-.hidden {
-  display: none;
-  visibility: hidden;
 }
 
 /* Hide only visually, but have it available for screenreaders: by Jon Neal. http://www.webaim.org/techniques/css/invisiblecontent/  &  j.mp/visuallyhidden */
@@ -27,24 +18,17 @@
   padding: 0;
   position: absolute;
   width: 1px;
-
-  /* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: drupal.org/node/897638 */
-  &.focusable {
-    &:active,
-    &:focus {
-      clip: auto;
-      height: auto;
-      margin: 0;
-      overflow: visible;
-      position: static;
-      width: auto;
-    }
-  }
 }
 
-/* Hide visually and from screenreaders, but maintain layout */
-.invisible {
-  visibility: hidden;
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: drupal.org/node/897638 */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
 }
 
 /* Accessible-friendly way to visually hide things, but keep for screen readers
@@ -57,50 +41,13 @@
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-@media only screen and (max-width: 48em) {
-  .hidden_mb {
-    display:none  !important;
-  }
-  .no-bg_mb {
-    background-image:none !important;
-  }
-}
-@media (min-width: 48em) {
-  .show_sm { display: block !important }
-  .hide_sm { display: none !important }
-  .visuallyhidden_sm {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+.ir br,
+.hide,
+.hidden { display: none !important; }
 
-    &.focusable {
-      &:active,
-      &:focus {
-        clip: auto;
-        height: auto;
-        margin: 0;
-        overflow: visible;
-        position: static;
-        width: auto;
-      }
-    }
-  }
-}
-
-@media (min-width: 64em) {
-  .show_md { display: block !important }
-  .hide_md { display: none !important }
-}
-
-@media (min-width: 98em) {
-  .show_lg { display: block !important }
-  .hide_lg { display: none !important }
-}
+/* Hide visually and from screenreaders, but maintain layout */
+.invisible,
+.hidden { visibility: hidden; }
 
 .transparent { opacity: 0; }
 .translucent { opacity: 0.2; }
@@ -116,3 +63,40 @@
 .opacity-8 { opacity: 0.8; }
 .opacity-9 { opacity: 0.9; }
 .opacity-10 { opacity: 1; }
+
+@media only screen and (max-width: 48em) {
+  .hidden_mb { display: none !important; }
+  .no-bg_mb { background-image: none !important; }
+}
+@media (min-width: 48em) {
+  .show_sm { display: block !important }
+  .hide_sm { display: none !important }
+  .visuallyhidden_sm {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  .visuallyhidden_sm.focusable:active,
+  .visuallyhidden_sm.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+  }
+}
+@media (min-width: 64em) {
+  .show_md { display: block !important }
+  .hide_md { display: none !important }
+}
+
+@media (min-width: 98em) {
+  .show_lg { display: block !important }
+  .hide_lg { display: none !important }
+}

@@ -4,6 +4,9 @@ html {
   font-family: var(--sans);
   font-size: 80%;
 }
+body {
+  font-size: var(--font-size-3);
+}
 .page {
   margin-left: calc(var(--line) / 2);
   margin-right: calc(var(--line) / 2);

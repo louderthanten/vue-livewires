@@ -1,0 +1,6 @@
+hr {
+  height: 0;
+  border: 0;
+  border-top: var(--border);
+  box-sizing: border-box;
+}

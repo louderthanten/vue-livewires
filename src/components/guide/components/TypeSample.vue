@@ -1,5 +1,5 @@
 <template>
-  <div :class="[weight, font]" class="mb6">
+  <div :class="[weight, font]" class="mb3">
     <h4>{{ title }}</h4>
     <p class="font-size-9 mt05 mb1">AaBbCc1234</p>
     <p class="font-size-5 mb1">ABCDEFGHIJKLMNOPQRSTUVWXYZ<br />

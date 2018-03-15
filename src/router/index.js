@@ -4,6 +4,8 @@ import Index from '@/components/Index'
 import Typography from '@/components/guide/Typography'
 import Layout from '@/components/guide/Layout'
 import Colour from '@/components/guide/Colour'
+import Borders from '@/components/guide/Borders'
+import Tables from '@/components/guide/Tables'
 
 Vue.use(Router)
 
@@ -29,6 +31,16 @@ export default new Router({
       path: 'colour',
       name: 'Colour',
       component: Colour
+    },
+    {
+      path: 'borders',
+      name: 'Borders',
+      component: Borders
+    },
+    {
+      path: 'tables',
+      name: 'Tables',
+      component: Tables
     }
   ]
 })

@@ -4,9 +4,11 @@
       <router-link :to="{ name: 'Index' }">{{ title }}</router-link>
     </div>
     <nav class="grid-column-span-4 justify-items-end align-right">
-      <router-link :to="{ name: 'Typography' }">Typography</router-link>
-      <router-link :to="{ name: 'Layout' }">Layout</router-link>
-      <router-link :to="{ name: 'Colour' }">Colour</router-link>
+      <router-link :class="'mr1'" :to="{ name: 'Typography' }">Typography</router-link>
+      <router-link :class="'mr1'" :to="{ name: 'Layout' }">Layout</router-link>
+      <router-link :class="'mr1'" :to="{ name: 'Colour' }">Colour</router-link>
+      <router-link :class="'mr1'" :to="{ name: 'Borders' }">Borders</router-link>
+      <router-link :class="'mr1'" :to="{ name: 'Tables' }">Tables</router-link>
     </nav>
   </header>
 </template>

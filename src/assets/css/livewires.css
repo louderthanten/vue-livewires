@@ -1,6 +1,7 @@
 @import '1_settings/grid.css';
 @import '1_settings/color.css';
 @import '1_settings/typography.css';
+@import '1_settings/borders.css';
 
 @import '2_tools/typesizing.css';
 
@@ -9,9 +10,11 @@
 @import '4_elements/page.css';
 @import '4_elements/typography.css';
 @import '4_elements/links.css';
+@import '4_elements/borders.css';
 
 @import '5_utilities/grid.css';
 @import '5_utilities/spacing.css';
 @import '5_utilities/color.css';
 @import '5_utilities/typography.css';
 @import '5_utilities/borders.css';
+@import '5_utilities/hiding.css';

@@ -66,19 +66,14 @@ table {
   border-collapse: collapse;
   width: 100%;
   margin-bottom: var(--line, 1.5rem);
-
-  ul,
-  ol,
-  dl,
-  p {
-    margin-bottom: 0;
-  }
-
-  img {
-    max-width: 100%;
-  }
 }
 
+table ul,
+table ol,
+table dl,
+table p {
+  margin-bottom: 0;
+}
 [colspan="1"]{
   text-align: left;
 }
@@ -99,12 +94,11 @@ th {
   text-align: right;
 }
 
-thead,
-tfoot {
-  th,
-  td {
-    vertical-align: bottom;
-  }
+thead th,
+thead td,
+tfoot th,
+tfoot td {
+  vertical-align: bottom;
 }
 
 .axis-title {
@@ -115,109 +109,84 @@ tfoot {
   width: 99%;
 }
 
-.table--bordered{
-  th,
-  td{
-    border: var(--rule, 1px solid black);
-
-    &:empty{
-      border: none;
-    }
-  }
-  @media only screen and (max-width: 48em) {
-    td {
-      border-top: none;
-    }
-  }
+.table--bordered th,
+.table--bordered td {
+  border: var(--rule, 1px solid black);
+}
+.table--bordered th:empty,
+.table--bordered td:empty {
+  border: none;
 }
 
-.table--lined {
-  tr {
-    border-bottom: var(--rule, 1px solid black);
-  }
-  th,
-  td {
-    &:first-child,
-    &:first-child {
-      padding-left: 0;
-    }
-    &:last-child,
-    &:last-child {
-      padding-right: 0;
-    }
-  }
-  tbody:first-child {
-    tr:first-child {
-      border-top: var(--rule, 1px solid black);
-    }
-  }
-  thead {
-    tr {
-      border-bottom: var(--rule, 1px solid black);
-      border-top: none;
-    }
-  }
-  tfoot {
-    th,
-    td {
-      padding-bottom: 0;
-    }
-  }
+.table--lined tr {
+  border-bottom: var(--rule, 1px solid black);
+}
+.table--lined th:first-child,
+.table--lined td:first-child {
+  padding-left: 0;
+}
+.table--lined th:last-child,
+.table--lined td:last-child {
+  padding-right: 0;
 }
 
-.table--striped {
-  tbody {
-    tr:nth-child(odd) td {
-      background: var(--grey, grey);
-    }
-  }
+.table--lined tbody tr:first-child {
+  border-top: var(--border);
+}
+.table--lined thead tr {
+  border-bottom: var(--rule, 1px solid black);
+  border-top: none;
+}
+.table--lined tfoot th,
+.table--lined tfoot td {
+  padding-bottom: 0;
+}
+
+.table--striped tbody tr:nth-child(odd) td{
+  background: var(--grey, grey);
 }
 
 @media only screen and (max-width: 48em) {
-  table {
-    tr {
-      width: 100%;
-    }
+  table tr {
+    width: 100%;
   }
-  .table--mobile {
-    tbody,
-    tfoot,
-    tbody th,
-    tbody td,
-    tbody tr {
-      display: block !important;
-    }
-    thead {
-      display: none;
-    }
-    thead,
-    tfoot,
-    tbody,
-    tr {
-      clear: both;
-    }
-      tr {
-      overflow: hidden;
-    }
-    td {
-      float: left;
-      padding-top: 0;
-      margin-bottom: 0;
-    }
-    td:before {
-      content: attr(data-label);
-      display: block;
-    }
+  .table--mobile tbody,
+  .table--mobile tfoot,
+  .table--mobile tbody th,
+  .table--mobile tbody td,
+  .table--mobile tbody tr {
+    display: block !important;
+  }
+  .table--mobile thead {
+    display: none;
+  }
+  .table--mobile thead,
+  .table--mobile tfoot,
+  .table--mobile tbody,
+  .table--mobile tr {
+    clear: both;
+  }
+  .table--mobile tr {
+    overflow: hidden;
+  }
+  .table--mobile td {
+    float: left;
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+  .table--mobile td:before {
+    content: attr(data-label);
+    display: block;
   }
 
-  .numeric,
-  .numerical,
-  .delete,
-  td.price {
+  .table--mobile .numeric,
+  .table--mobile .numerical,
+  .table--mobile .delete,
+  .table--mobile td.price {
     text-align: left;
   }
-  td.numerical,
-  td.numeric {
+  .table--mobile td.numerical,
+  .table--mobile td.numeric {
     text-transform: uppercase;
   }
 }
