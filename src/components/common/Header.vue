@@ -9,6 +9,7 @@
       <router-link :class="'mr1'" :to="{ name: 'Colour' }">Colour</router-link>
       <router-link :class="'mr1'" :to="{ name: 'Borders' }">Borders</router-link>
       <router-link :class="'mr1'" :to="{ name: 'Tables' }">Tables</router-link>
+      <router-link :class="'mr1'" :to="{ name: 'Forms' }">Forms</router-link>
     </nav>
   </header>
 </template>

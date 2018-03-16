@@ -1,3 +1,14 @@
 :root {
+  --tight-radius: 2px;
+  --radius: 4px;
+  --loose-radius: 8px;
   --border: 1px solid var(--black);
+  --black-border: 1px solid var(--black);
+  --grey-border: 1px solid var(--grey);
+  --white-border: 1px solid var(--white);
+  --red-border: 1px solid var(--red);
+  --blue-border: 1px solid var(--blue);
+  --green-border: 1px solid var(--green);
+  --accent-border: 1px solid var(--accent);
+  --accent2-border: 1px solid var(--accent2);
 }

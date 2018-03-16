@@ -6,6 +6,7 @@ import Layout from '@/components/guide/Layout'
 import Colour from '@/components/guide/Colour'
 import Borders from '@/components/guide/Borders'
 import Tables from '@/components/guide/Tables'
+import Forms from '@/components/guide/Forms'
 
 Vue.use(Router)
 
@@ -41,6 +42,11 @@ export default new Router({
       path: 'tables',
       name: 'Tables',
       component: Tables
+    },
+    {
+      path: 'forms',
+      name: 'Forms',
+      component: Forms
     }
   ]
 })

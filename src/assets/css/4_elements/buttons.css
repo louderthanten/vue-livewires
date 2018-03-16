@@ -1,0 +1,134 @@
+button {
+  background-color: var(--black);
+  color: var(--white);
+  border-radius: var(--radius);
+  border: none;
+  margin:0 0 calc(var(--line) * 0.5) 0;
+  padding: calc(var(--line) * 0.333) calc(var(--line) * 0.667);
+  cursor: pointer;
+  font-size: var(--font-size-3);
+}
+button:hover,
+button:active {
+  background-color: var(--accent);
+}
+button:focus {
+  background-color: var(--accent);
+  outline-style: dotted;
+  outline-width: 1px;
+}
+.small-button {
+  font-size: var(--font-size-1);
+  padding: calc(var(--line) * 0.25) calc(var(--line) * 0.5);
+}
+.large-button {
+  font-size: var(--font-size-5);
+  padding: calc(var(--line) * 0.75) calc(var(--line) * 1.5);
+}
+.square-button {
+  border-radius: 0;
+}
+.pill-button {
+  border-radius: 500px;
+}
+.ghost-button {
+  background: transparent;
+  border-width: calc(var(--line) * 0.25);
+  border-color: var(--black);
+  border-style: solid;
+  border-radius: 0;
+  color: var(--black);
+}
+.ghost-button:hover,
+.ghost-button:active {
+  color: var(--black);
+}
+.ghost-button:focus {
+  color: var(--black);
+}
+.full-button {
+  display: block;
+  width: 100%;
+}
+.white-button {
+  background-color: var(--white);
+  color: var(--black);
+}
+.white-button:hover,
+.white-button:active {
+  background-color: var(--accent);
+}
+.white-button:focus {
+  background-color: var(--accent);
+}
+.black-button {
+  background-color: var(--black);
+  color: var(--white);
+}
+.black-button:hover,
+.black-button:active {
+  background-color: var(--accent);
+}
+.black-button:focus {
+  background-color: var(--accent);
+}
+.grey-button {
+  background-color: var(--grey);
+}
+.grey-button:hover,
+.grey-button:active {
+  background-color: var(--accent);
+}
+.grey-button:focus {
+  background-color: var(--accent);
+}
+.red-button {
+  background-color: var(--red);
+}
+.red-button:hover,
+.red-button:active {
+  background-color: var(--accent);
+}
+.red-button:focus {
+  background-color: var(--accent);
+}
+.blue-button {
+  background-color: var(--blue);
+}
+.blue-button:hover,
+.blue-button:active {
+  background-color: var(--accent);
+}
+.blue-button:focus {
+  background-color: var(--accent);
+}
+.green-button {
+  background-color: var(--green);
+}
+.green-button:hover,
+.green-button:active {
+  background-color: var(--accent);
+}
+.green-button:focus {
+  background-color: var(--accent);
+}
+.accent-button {
+  background-color: var(--accent);
+}
+.accent-button:hover,
+.accent-button:active {
+  background-color: var(--accent2);
+}
+.accent-button:focus {
+  background-color: var(--accent2);
+}
+.accent2-button {
+  background-color: var(--accent2);
+}
+.accent2-button:hover,
+.accent2-button:active {
+  background-color: var(--accent);
+}
+.accent2-button:focus {
+  background-color: var(--accent);
+}

@@ -3,6 +3,12 @@ html {
   color: var(--black);
   font-family: var(--sans);
   font-size: 80%;
+  box-sizing: border-box;
+}
+*, 
+*:before, 
+*:after {
+  box-sizing: inherit;
 }
 body {
   font-size: var(--font-size-3);

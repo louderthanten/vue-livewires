@@ -11,6 +11,7 @@
 @import '4_elements/typography.css';
 @import '4_elements/links.css';
 @import '4_elements/borders.css';
+@import '4_elements/buttons.css';
 
 @import '5_utilities/grid.css';
 @import '5_utilities/spacing.css';
