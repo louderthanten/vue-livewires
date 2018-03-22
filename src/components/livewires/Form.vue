@@ -1,10 +1,18 @@
 <template>
-  <form>
+  <form :action="action">
     <fieldset>
       <slot></slot>
     </fieldset>
   </form>
 </template>
+
+<script>
+export default {
+  props: {
+    action: ''
+  }
+}
+</script>
 
 <style>
 form {

@@ -1,7 +1,7 @@
 <template>
   <div class="page">
     <h1>Typography</h1>
-    <section class="grid" id="typefaces">
+    <section class="grid" id="typefaces" :style="color">
       <h2>Typefaces</h2>
       <hr>
 
@@ -207,6 +207,11 @@ import Table from '../livewires/Table'
 import TypeSample from './components/TypeSample'
 
 export default {
+  data () {
+    return {
+      color: '--black: #ff0044;'
+    }
+  },
   components: {
     lwTable: Table,
     appTypeSample: TypeSample
