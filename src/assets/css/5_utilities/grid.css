@@ -25,6 +25,8 @@
 .justify-content-start { justify-content: start; }
 .justify-content-center { justify-content: center; }
 .justify-content-end { justify-content: end; }
+.justify-content-space-around { justify-content: space-around; }
+.justify-content-space-between { justify-content: space-between; }
 
 .align-content-stretch { align-content: stretch; }
 .align-content-start { align-content: start; }
@@ -139,19 +141,19 @@
 .grid-row-end-11 { grid-row-end: 11; }
 .grid-row-end-12 { grid-row-end: 12; }
 
-.order-0 { --grid-order: 0;}
-.order-1 { --grid-order: 1;}
-.order-2 { --grid-order: 2;}
-.order-3 { --grid-order: 3;}
-.order-4 { --grid-order: 4;}
-.order-5 { --grid-order: 5;}
-.order-6 { --grid-order: 6;}
-.order-7 { --grid-order: 7;}
-.order-8 { --grid-order: 8;}
-.order-9 { --grid-order: 9;}
-.order-10 { --grid-order: 10;}
-.order-11 { --grid-order: 11;}
-.order-12 { --grid-order: 12;}
+.order-0 { --grid-order: 0; }
+.order-1 { --grid-order: 1; }
+.order-2 { --grid-order: 2; }
+.order-3 { --grid-order: 3; }
+.order-4 { --grid-order: 4; }
+.order-5 { --grid-order: 5; }
+.order-6 { --grid-order: 6; }
+.order-7 { --grid-order: 7; }
+.order-8 { --grid-order: 8; }
+.order-9 { --grid-order: 9; }
+.order-10 { --grid-order: 10; }
+.order-11 { --grid-order: 11; }
+.order-12 { --grid-order: 12; }
 
 @media screen and (min-width: 48em) {
   .justify-items-stretch_sm { justify-items: stretch; }

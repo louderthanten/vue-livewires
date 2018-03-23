@@ -25,6 +25,9 @@
 .align-initial { text-align: initial; }
 .align-inherit { text-align: inherit; }
 
+.left { float: left; }
+.right { float: right; }
+
 .measure { max-width: 30em; }
 .measure-wide {max-width: 34em; }
 .measure-narrow { max-width: 20em; }
