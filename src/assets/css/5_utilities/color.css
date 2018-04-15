@@ -2,9 +2,12 @@
   background-color: var(--white); 
   color: var(--black);
 }
+.reverse,
 .black.black {
   background-color: var(--black);
   color: var(--white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 .grey.grey { 
   background-color: var(--grey);
@@ -21,6 +24,8 @@
 .green.green {
   background-color: var(--green);
   color: var(--white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 .accent.accent {
   background-color: var(--accent);
@@ -29,6 +34,8 @@
 .accent2.accent2 {
   background-color: var(--accent2);
   color: var(--white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .white-text.white-text   { color: var(--white); }
